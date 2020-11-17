@@ -33,10 +33,10 @@
 	•	 Tab Bar Badges.
 	•	 Custom Acion Sheet.
 
-[![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 02 59 13][Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 02 59 22]]
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png" width="180" height="310"></kbd>
 
 
-![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 02 59 13](https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png)
+//![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 02 59 13](https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png)
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 02 59 22](https://user-images.githubusercontent.com/41602889/99452205-eeb36980-292b-11eb-8a14-e66cff790028.png)
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 03 00 37](https://user-images.githubusercontent.com/41602889/99452211-f115c380-292b-11eb-98ff-7ec1900675ed.png)
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 03 00 43](https://user-images.githubusercontent.com/41602889/99452218-f3781d80-292b-11eb-88da-965630527174.png)
