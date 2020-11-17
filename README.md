@@ -36,11 +36,6 @@
 
 ## In Action
 #### UI
-#### Favourites
-<kbd><img src="https://user-images.githubusercontent.com/41602889/99452218-f3781d80-292b-11eb-88da-965630527174.png" width="200" height="380">  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99452241-fa069500-292b-11eb-85ec-c8dc5e309b46.png" width="200" height="380"></kbd>  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99452247-fc68ef00-292b-11eb-9c6f-3325b86a3e32.png" width="200" height="380"></kbd>
-
-#### Downloads
-<kbd><img src="https://user-images.githubusercontent.com/41602889/99452234-f83cd180-292b-11eb-8a00-fad4c0a6c9ff.png" width="200" height="380">  <kbd><img src="https://user-images.githubusercontent.com/41602889/99457233-4ef9d980-2933-11eb-9c3c-d011f2ff1897.png" width="200" height="380">
 
 #### Search
 <kbd><img src="https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png" width="200" height="380"></kbd> <kbd><img src="https://user-images.githubusercontent.com/41602889/99452205-eeb36980-292b-11eb-8a14-e66cff790028.png" width="200" height="380"></kbd>
@@ -51,8 +46,15 @@
 #### Player
 <kbd><img src="https://user-images.githubusercontent.com/41602889/99452229-f5da7780-292b-11eb-974e-682bf2ea46d1.png" width="200" height="380">  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99452230-f6730e00-292b-11eb-96e8-a5fe6440c16d.png" width="200" height="380"></kbd>
 
+#### Favourites
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99452218-f3781d80-292b-11eb-88da-965630527174.png" width="200" height="380">  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99452241-fa069500-292b-11eb-85ec-c8dc5e309b46.png" width="200" height="380"></kbd>  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99452247-fc68ef00-292b-11eb-9c6f-3325b86a3e32.png" width="200" height="380"></kbd>
+
+#### Downloads
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99452234-f83cd180-292b-11eb-8a00-fad4c0a6c9ff.png" width="200" height="380">  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99457233-4ef9d980-2933-11eb-9c3c-d011f2ff1897.png" width="200" height="380"></kbd>  <kbd><img src="https://user-images.githubusercontent.com/41602889/99458065-992f8a80-2934-11eb-93e6-e90d0c30afe5.png"></kbd>
+
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 03 00 37](https://user-images.githubusercontent.com/41602889/99452211-f115c380-292b-11eb-98ff-7ec1900675ed.png)
 
+![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-18 at 00 24 52](https://user-images.githubusercontent.com/41602889/99458065-992f8a80-2934-11eb-93e6-e90d0c30afe5.png)
 
 
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 03 03 31](https://user-images.githubusercontent.com/41602889/99452247-fc68ef00-292b-11eb-9c6f-3325b86a3e32.png)
