@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AG1-zd-bzj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Downloads-->
+        <scene sceneID="eyA-Z7-TOw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AG1-zd-bzj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Downloads" image="square.and.arrow.down.on.square" catalog="system" selectedImage="square.and.arrow.down.fill" id="Au9-8n-KCQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i9B-qU-O7x">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zyb-gM-Tgs" kind="relationship" relationship="rootViewController" id="Wsb-dY-Obt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Amw-kq-qPf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1363.768115942029" y="1240.8482142857142"/>
+        </scene>
+        <!--Downloads-->
+        <scene sceneID="xzE-ts-x4n">
+            <objects>
+                <tableViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="zyb-gM-Tgs" customClass="DownloadsVC" customModule="Podcasts" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Up5-Px-490">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="yLk-50-Cfc">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yLk-50-Cfc" id="u3M-jx-cgA">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zyb-gM-Tgs" id="Nlq-SM-0Tz"/>
+                            <outlet property="delegate" destination="zyb-gM-Tgs" id="FYh-0m-D7t"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Downloads" id="Cyo-6N-Jiv"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qnn-id-x8m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2082" y="1255"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.down.fill" catalog="system" width="60" height="64"/>
+        <image name="square.and.arrow.down.on.square" catalog="system" width="60" height="64"/>
+    </resources>
+</document>

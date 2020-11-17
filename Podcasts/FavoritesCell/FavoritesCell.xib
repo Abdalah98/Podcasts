@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="favoriteCell" id="gTV-IL-0wX" customClass="FavoritesCell" customModule="Podcasts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="229"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="183" height="229"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Vl-Pq-okT">
+                        <rect key="frame" x="0.0" y="0.0" width="183" height="229"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="podcast (2)" translatesAutoresizingMaskIntoConstraints="NO" id="XLL-X1-Up6">
+                                <rect key="frame" x="0.0" y="0.0" width="183" height="170"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="183" id="n7C-2f-Fi9"/>
+                                    <constraint firstAttribute="height" constant="170" id="yJE-rO-1T5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AirtestName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sY0-9v-SK2">
+                                <rect key="frame" x="2" y="204" width="81" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Podcast Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSg-a8-iDC">
+                                <rect key="frame" x="2" y="178" width="110" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sSg-a8-iDC" firstAttribute="top" secondItem="XLL-X1-Up6" secondAttribute="bottom" constant="8" id="1nG-ci-M6u"/>
+                            <constraint firstItem="XLL-X1-Up6" firstAttribute="leading" secondItem="7Vl-Pq-okT" secondAttribute="leading" id="7Hd-09-TgS"/>
+                            <constraint firstItem="sY0-9v-SK2" firstAttribute="leading" secondItem="7Vl-Pq-okT" secondAttribute="leading" constant="2" id="JYU-kM-VKP"/>
+                            <constraint firstItem="sSg-a8-iDC" firstAttribute="leading" secondItem="7Vl-Pq-okT" secondAttribute="leading" constant="2" id="dIE-mg-lfD"/>
+                            <constraint firstItem="XLL-X1-Up6" firstAttribute="top" secondItem="7Vl-Pq-okT" secondAttribute="top" id="llK-gc-hTS"/>
+                            <constraint firstItem="sY0-9v-SK2" firstAttribute="top" secondItem="sSg-a8-iDC" secondAttribute="bottom" constant="6" id="r8R-dn-vAw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="7Vl-Pq-okT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ckb-MA-Y4g"/>
+                <constraint firstAttribute="bottom" secondItem="7Vl-Pq-okT" secondAttribute="bottom" id="gRm-ta-cmf"/>
+                <constraint firstAttribute="trailing" secondItem="7Vl-Pq-okT" secondAttribute="trailing" id="iAh-9Y-yQS"/>
+                <constraint firstItem="7Vl-Pq-okT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vMC-Zd-JXa"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="183" height="229"/>
+            <connections>
+                <outlet property="airtestNameLabel" destination="sY0-9v-SK2" id="rhu-rA-jFI"/>
+                <outlet property="favoritesImageView" destination="XLL-X1-Up6" id="j3F-Kt-M1U"/>
+                <outlet property="podcastNameLabel" destination="sSg-a8-iDC" id="PRY-3X-FbV"/>
+            </connections>
+            <point key="canvasLocation" x="-41.304347826086961" y="74.665178571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="podcast (2)" width="32" height="32"/>
+    </resources>
+</document>

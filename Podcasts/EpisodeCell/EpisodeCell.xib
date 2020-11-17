@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="episodeDatacell" rowHeight="151" id="KGk-i7-Jjw" customClass="EpisodeCell" customModule="Podcasts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="151"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="151"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="podcast (2)" translatesAutoresizingMaskIntoConstraints="NO" id="N6t-wN-pCd">
+                        <rect key="frame" x="16" y="25.5" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="YVJ-FO-hr1"/>
+                            <constraint firstAttribute="width" constant="100" id="ieX-Xl-dz9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="zbQ-ME-Ags">
+                        <rect key="frame" x="132" y="42.5" width="202" height="66"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqW-Gy-5CU">
+                                <rect key="frame" x="0.0" y="0.0" width="202" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ce9-th-x8R">
+                                <rect key="frame" x="0.0" y="23.5" width="202" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGw-X7-1ty">
+                                <rect key="frame" x="0.0" y="49" width="202" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6h-IK-BCe">
+                        <rect key="frame" x="27.5" y="58.5" width="77.5" height="34.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zbQ-ME-Ags" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="FJ5-2O-8gm"/>
+                    <constraint firstItem="v6h-IK-BCe" firstAttribute="centerY" secondItem="N6t-wN-pCd" secondAttribute="centerY" id="GMt-1O-b1B"/>
+                    <constraint firstAttribute="trailing" secondItem="zbQ-ME-Ags" secondAttribute="trailing" constant="10" id="TQJ-y7-OSH"/>
+                    <constraint firstItem="N6t-wN-pCd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ucw-R6-ooa"/>
+                    <constraint firstItem="zbQ-ME-Ags" firstAttribute="leading" secondItem="N6t-wN-pCd" secondAttribute="trailing" constant="16" id="cxT-cz-Q2L"/>
+                    <constraint firstItem="N6t-wN-pCd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="eUy-M4-9rX"/>
+                    <constraint firstItem="v6h-IK-BCe" firstAttribute="centerX" secondItem="N6t-wN-pCd" secondAttribute="centerX" id="zlN-CB-PXJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="jqW-Gy-5CU" id="Pdf-LP-DRZ"/>
+                <outlet property="descriptionLable" destination="NGw-X7-1ty" id="zA0-7K-nsy"/>
+                <outlet property="episodeImage" destination="N6t-wN-pCd" id="Rbf-Yt-e2Y"/>
+                <outlet property="progressLabel" destination="v6h-IK-BCe" id="hFb-C6-FS3"/>
+                <outlet property="titleLabel" destination="ce9-th-x8R" id="qC7-9l-kGj"/>
+            </connections>
+            <point key="canvasLocation" x="149.27536231884059" y="153.68303571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="podcast (2)" width="32" height="32"/>
+    </resources>
+</document>
