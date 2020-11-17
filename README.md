@@ -37,9 +37,14 @@
 ## In Action
 ## UI
 #### Favourites
-<kbd><img src="https://user-images.githubusercontent.com/41602889/99452234-f83cd180-292b-11eb-8a00-fad4c0a6c9ff.png" width="200" height="380">  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99452241-fa069500-292b-11eb-85ec-c8dc5e309b46.png" width="200" height="380"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99452218-f3781d80-292b-11eb-88da-965630527174.png" width="200" height="380">  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99452241-fa069500-292b-11eb-85ec-c8dc5e309b46.png" width="200" height="380"></kbd>
+
+
 
 #### Downloads
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99452234-f83cd180-292b-11eb-8a00-fad4c0a6c9ff.png" width="200" height="380">
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99457233-4ef9d980-2933-11eb-9c3c-d011f2ff1897.png" width="200" height="380">
+
 #### Search
 <kbd><img src="https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png" width="200" height="380"></kbd> <kbd><img src="https://user-images.githubusercontent.com/41602889/99452205-eeb36980-292b-11eb-8a14-e66cff790028.png" width="200" height="380"></kbd>
 
