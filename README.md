@@ -52,3 +52,6 @@
 #### Downloads
 <kbd><img src="https://user-images.githubusercontent.com/41602889/99452234-f83cd180-292b-11eb-8a00-fad4c0a6c9ff.png" width="200" height="380">  </kbd><kbd><img src="https://user-images.githubusercontent.com/41602889/99457233-4ef9d980-2933-11eb-9c3c-d011f2ff1897.png" width="200" height="380"></kbd>
 
+
+![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-18 at 00 24 52](https://user-images.githubusercontent.com/41602889/99458065-992f8a80-2934-11eb-93e6-e90d0c30afe5.png)
+
