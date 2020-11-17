@@ -36,6 +36,8 @@
 
 ## In Action
 #### UI
+#### Now Playing Info on Lock Screen
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99460914-6f2c9700-2939-11eb-856f-1b0cf5d7840e.png" width="200" height="380"></kbd> <kbd><img src="(https://user-images.githubusercontent.com/41602889/99460919-718ef100-2939-11eb-9cfd-689e799dff1a.png" width="200" height="380"></kbd>
 
 #### Search
 <kbd><img src="https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png" width="200" height="380"></kbd> <kbd><img src="https://user-images.githubusercontent.com/41602889/99452205-eeb36980-292b-11eb-8a14-e66cff790028.png" width="200" height="380"></kbd>
