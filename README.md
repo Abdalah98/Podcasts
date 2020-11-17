@@ -3,7 +3,7 @@
 
 
 
-#Podcast-swift
+# Podcast-swift
 	•	 Support Dark Mode
 	•	searching for available Podcasts on iTunes
 	•	bookmarking your favorite stations
@@ -12,7 +12,7 @@
 	•	Control playback when App is in background : in the Command Center and Lock Screen (including proper Cover Art and Pause, Play, Previous, and Next track action buttons)
 	•	draggable Floating Player component accessible across all screens
 
-#Core Features
+# Core Features
 	•	Cocoapods integration
 	•	Alamofire for network requests
 	•	FeedKit for XML parsing
@@ -22,7 +22,7 @@
 	•	User Favorites persistence with UserDefaults
 
 
-#Features
+# Features
 	•	 Support Dark Mode
 	•	 Searching through podcasts by title or artist name.
 	•	 Favouriting podcasts for easy access.
