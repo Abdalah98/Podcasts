@@ -33,7 +33,7 @@
 	•	 Tab Bar Badges.
 	•	 Custom Acion Sheet.
 
-<kbd><img src="https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png" width="414" height="360"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png" width="200" height="380"></kbd>
 
 
 
