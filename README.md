@@ -39,7 +39,7 @@
 #### Favourites
 #### Downloads
 #### Search
-<kbd><img src="https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png" width="200" height="380"></kbd>&nbsp;&nbsp;&nbsp<kbd><img src="https://user-images.githubusercontent.com/41602889/99452205-eeb36980-292b-11eb-8a14-e66cff790028.png" width="200" height="380"></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99452186-e5c29800-292b-11eb-9dfa-ac5818f1fb21.png" width="200" height="380"></kbd>&nbsp<kbd><img src="https://user-images.githubusercontent.com/41602889/99452205-eeb36980-292b-11eb-8a14-e66cff790028.png" width="200" height="380"></kbd>
 
 
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-11-16 at 02 59 22](https://user-images.githubusercontent.com/41602889/99452205-eeb36980-292b-11eb-8a14-e66cff790028.png)
