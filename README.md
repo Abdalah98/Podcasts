@@ -30,6 +30,9 @@
 
 
 ## In Action
+<kbd><img src="https://user-images.githubusercontent.com/41602889/99468733-e8cc8100-2949-11eb-8b38-77c30c6207be.gif"></kbd> <kbd><img src="https://user-images.githubusercontent.com/41602889/99468739-f124bc00-2949-11eb-9297-217e8e995853.gif"></kbd>
+
+
 #### UI
 #### Now Playing Info on Lock Screen
 <kbd><img src="https://user-images.githubusercontent.com/41602889/99460914-6f2c9700-2939-11eb-856f-1b0cf5d7840e.png" width="200" height="380"></kbd> <kbd><img src="https://user-images.githubusercontent.com/41602889/99461057-b74bb980-2939-11eb-9952-8b7132eb0277.png" width="200" height="380"></kbd>
