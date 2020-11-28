@@ -1,5 +1,5 @@
 # Podcast-swift
-	•	 Support Dark Mode
+	•	 Support Dark Mode & light mode 
 	•	searching for available Podcasts on iTunes
 	•	bookmarking your favorite stations
 	•	audio playback
